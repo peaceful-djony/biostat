@@ -15,7 +15,7 @@ library(ggplot2)
 Предварительно необходимо скачать данные и разместить в поддиректории **data**
 ## Чтение датасета
 ```{r}
-pima <- read_excel(path = "./data/pima.xlsx")
+pima <- read_excel(path = "../data/pima.xlsx")
 head(pima)
 ```
 ## Удаление пропусков
